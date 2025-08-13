@@ -545,6 +545,12 @@
             "Markdown text between `` should not be translated or localized (they represent literal text) and the capitalization, spacing, and punctuation (including the ``) should not be altered."
         ]
     },
+    "c_cpp.configuration.associationsFile.markdownDescription": {
+        "message": "The path to the file that contains the file associations for C/C++ files. The file should be in JSON format and contain an object with file extensions as keys and language identifiers as values. For example: `{ \"*.h\": \"cpp\", \"*.c\": \"c\" }`.",
+        "comment": [
+            "Markdown text between `` should not be translated or localized (they represent literal text) and the capitalization, spacing, and punctuation (including the ``) should not be altered."
+        ]
+    },
     "c_cpp.configuration.workspaceParsingPriority.markdownDescription": {
         "message": "Controls whether parsing of the non-active workspace files uses sleeps to avoid using 100% CPU. The values `highest`/`high`/`medium`/`low` correspond to approximately 100/75/50/25% CPU usage.",
         "comment": [

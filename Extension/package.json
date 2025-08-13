@@ -3333,6 +3333,12 @@
                         "markdownDescription": "%c_cpp.configuration.autoAddFileAssociations.markdownDescription%",
                         "scope": "window"
                     },
+                    "C_Cpp.associationsFile": {
+                        "type": "string",
+                        "default": ".vscode/c_cpp_associations.json",
+                        "markdownDescription": "%c_cpp.configuration.associationsFile.markdownDescription%",
+                        "scope": "resource"
+                    },
                     "C_Cpp.preferredPathSeparator": {
                         "type": "string",
                         "enum": [
